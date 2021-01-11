@@ -1,9 +1,3 @@
-/**
-* Template Name: Company - v2.2.0
-* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -31,9 +25,6 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -2456,10 +2447,14 @@ button.btn.btn-sm.bg-white.text-dark {
   position: relative;
 }
 
-.brand-icon img {
-  width: 100%;
+.brand-icon img:hover {
+    transform: scale(0.95);
 }
 
+.brand-icon img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
 .overlay-text {
   background-color: #000000ad;
   display: none;
@@ -2483,10 +2478,12 @@ button.btn.btn-sm.bg-white.text-dark {
 }
 
 .brandMore {
-  color: #ffffff;
-  background-color: black;
-  border: none;
-  font-size: 14px;
+      color: #ffffff;
+    background-color: black;
+    border: none;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
 
 .brandMore:hover {
